@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sircode-website"
+    }
+  },
+  "defaultProject": "sircode-website",
+  "cli": {
+    "analytics": false
+  }
 }

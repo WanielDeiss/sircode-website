@@ -1,0 +1,42 @@
+$brand-palette: (
+  xing: #126567,
+  linkedin: #0e76a8,
+  github: #24292e,
+  boardgamegeek: #3f3a60,
+  instagram: #e1306c,
+  etsy: #f1641e,
+  twitter: #1da1f2,
+);
+
+main {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 1rem;
+  img {
+    width: 100%;
+  }
+}
+
+.on {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+
+  a {
+    display: inline-block;
+    width: calc(100% - 2rem);
+    text-decoration: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    color: white;
+  }
+
+  @each $brand-name, $brand-color in $brand-palette {
+    .#{$brand-name}:hover {
+      background: $brand-color;
+      color: white;
+    }
+  }
+}
