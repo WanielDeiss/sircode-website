@@ -18,11 +18,6 @@ import { faDice } from '@fortawesome/free-solid-svg-icons';
 export class AppComponent {
   meOn: MeOn[] = [
     {
-      platform: 'Xing',
-      icon: faXing,
-      url: 'https://www.xing.com/profile/Daniel_Weiss48/cv',
-    },
-    {
       platform: 'LinkedIn',
       icon: faLinkedin,
       url: 'https://www.linkedin.com/in/wanieldeiss/',
