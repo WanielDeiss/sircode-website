@@ -38,11 +38,6 @@ export class AppComponent {
       url: 'https://www.instagram.com/wanieldeiss/',
     },
     {
-      platform: 'Etsy',
-      icon: faEtsy,
-      url: 'https://www.etsy.com/de/shop/DanielDice',
-    },
-    {
       platform: 'Twitter',
       icon: faTwitter,
       url: 'https://twitter.com/WanielDeiss',
