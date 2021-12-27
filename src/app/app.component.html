@@ -4,7 +4,7 @@
   </header>
   <section>
     <div *ngFor="let on of meOn" class="on">
-      <a [href]="on.url" [class]="on.platform.toLowerCase()">
+      <a [href]="on.url" [class]="on.platform | lowercase">
         <fa-icon [icon]="on.icon"></fa-icon> {{ on.platform }}
       </a>
     </div>
